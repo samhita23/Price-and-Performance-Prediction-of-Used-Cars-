@@ -16,6 +16,7 @@ Cars24website--> Scraping using beautifulsoup library --> Fetch the url links fo
 3) Removing words like kilometers, transmission, insurance in KM, Transmission and insurance type columns
 4) Rating is given as 4 out of 5 , 4.2 out of 5 etc. So out of 5 is removed in each row.
 5) Missing vaules is relpaced with Nan (code is wriiten to check the lengh as 8 and if not present it changes to Nan)
+
 ###### Data Visulization 
 1) Univarariate visulization plots
 (i) Count of price
@@ -33,10 +34,14 @@ Cars24website--> Scraping using beautifulsoup library --> Fetch the url links fo
 (ii) Transmission vs pice vs year of purchase
 (iii) Pai plots for Price, rating, kilometers and year of purchase
 (iv) Correlation matrix and other ploty interactive plots. 
-######## Data Preprocessing
+
+####### Data Preprocessing
 Feature transforms
 Categorical to numerical 
-preparing data to split for train and test 
+Preparing data to split for train and test 
 Model selection and results review.
 
+######## Next steps
+Check linear models - Linear regression and svr models
+Also check Random forest and XB as data is catagerical and non linear
 
